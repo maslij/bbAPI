@@ -1,0 +1,46 @@
+# Build artifacts
+build/
+third-party/
+third-party-build/
+third-party-src/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Git files
+.git/
+.gitignore
+
+# Documentation that doesn't affect build
+*.md
+docs/
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Docker files (we only need the Dockerfile itself)
+.dockerignore
+
+# ECR deployment script (not needed in container)
+deploy_to_ecr.sh
+
+# Test files (unless building with tests)
+tests/
+
+# Any local config files
+.env
+*.local
+
+# Backup files
+*.bak
+*.backup 

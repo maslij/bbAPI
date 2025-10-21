@@ -1,0 +1,19 @@
+/build/
+logs/log.txt
+data/
+_deps/
+/third-party/*
+/third-party-build/*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Keep example files
+!.env.examplebuild/
+data/
+*.db
+*.sqlite*
+test_build/
+.env
